@@ -145,7 +145,7 @@ python -m venv .venv
 source .venv/Scripts/activate   # Windows Git Bash; use .venv/bin/activate on macOS/Linux
 pip install -r requirements.txt
 cp .env.example .env            # then fill in your values
-pytest -q
+python -m pytest -q
 python -m app.main
 ```
 
