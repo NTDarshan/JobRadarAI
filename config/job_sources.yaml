@@ -1,0 +1,45 @@
+# Trusted-site web search, via the Tavily search API (requires TAVILY_API_KEY).
+# Tavily does its own fetching; we never bypass a site's login wall or bot protection.
+search:
+  provider: tavily
+  queries:
+    - "software engineer fresher jobs Bangalore"
+    - "full stack developer entry level jobs Bangalore"
+    - "backend developer graduate jobs India remote"
+    - "React Node.js developer fresher hiring India"
+    - "Next.js Supabase PostgreSQL developer job India"
+    - "SDE 1 fresher hiring Bangalore 2026"
+  trusted_domains:
+    - "linkedin.com"
+    - "naukri.com"
+    - "indeed.com"
+    - "internshala.com"
+    - "instahyre.com"
+    - "cutshort.io"
+    - "wellfound.com"
+    - "foundit.in"
+    - "hirist.com"
+    - "glassdoor.co.in"
+  max_results_per_query: 10
+
+# Free, no-signup remote job board APIs — supplementary breadth at zero setup cost.
+remote_boards:
+  - name: "RemoteOK"
+    kind: "remoteok"
+    url: "https://remoteok.com/api"
+
+  - name: "Arbeitnow"
+    kind: "arbeitnow"
+    url: "https://www.arbeitnow.com/api/job-board-api"
+
+  - name: "We Work Remotely"
+    kind: "rss"
+    url: "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+
+  - name: "Himalayas"
+    kind: "himalayas"
+    url: "https://himalayas.app/jobs/api?limit=40"
+
+  - name: "Jobicy"
+    kind: "jobicy"
+    url: "https://jobicy.com/api/v2/remote-jobs?count=40&tag=dev"

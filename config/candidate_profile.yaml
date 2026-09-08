@@ -1,0 +1,51 @@
+candidate:
+  target_roles:
+    - "Software Engineer (Entry Level)"
+    - "Full-Stack Developer"
+    - "Backend Developer"
+    - "Software Development Engineer (SDE-1 / Fresher)"
+
+  experience_level: "Fresher / entry-level (one 6-month internship, graduating 2026)"
+
+  location_preference:
+    - "Bangalore, Karnataka, India"
+
+  work_mode_preference:
+    - "Onsite"
+    - "Hybrid"
+    - "Remote / Work From Home"
+
+  skills:
+    languages: ["TypeScript", "JavaScript", "Python", "Java", "SQL"]
+    frontend: ["Next.js", "React.js", "React Native (Expo)", "Tailwind CSS", "HTML5", "CSS3"]
+    backend: ["Node.js", "Express.js", "FastAPI", "Supabase", "REST APIs", "JWT", "Supabase Auth", "PostgreSQL RLS"]
+    databases: ["PostgreSQL", "MySQL", "MongoDB"]
+    testing_cicd: ["Vitest", "Playwright", "GitLab CI/CD"]
+    ai_nlp: ["Transformer-based semantic search", "Hybrid retrieval", "Text classification"]
+    tools: ["Git", "GitHub", "GitLab", "Vercel", "Vendure", "Razorpay", "Figma"]
+    foundations: ["Data Structures & Algorithms", "OOP", "DBMS", "Authentication & Authorization", "RBAC"]
+
+  strongest_areas:
+    - "Backend development"
+    - "Authentication & role-based access control"
+    - "Payment gateway integration"
+    - "Automated testing & CI/CD"
+
+  highlighted_experience:
+    - "6-month Full Stack Developer internship shipping production LMS, CRM, and admin dashboard features to 100-500+ active users (Next.js, React Native/Expo, Supabase, PostgreSQL)"
+    - "Implemented authentication & RBAC with Supabase Auth, JWT, and PostgreSQL row-level security enforcing multi-role data isolation"
+    - "Integrated the Razorpay payment gateway with server-side payment verification and automated invoice generation"
+    - "Wrote unit tests with Vitest and configured GitLab CI/CD pipelines for automatic test/deploy"
+    - "Built IRIS-Bot: a Python NLP system with transformer-based semantic search, adopted by her college department"
+    - "Built and deployed a three-role gamified engagement platform (Next.js, Supabase, Vercel) used by 60-70 students"
+
+  achievements:
+    - "1st Prize, Backend Track — Silofortune Hackathon"
+    - "Organized a National Level Ideathon (2024-25)"
+
+  education: "B.E. in Computer Science & Engineering, Malnad College of Engineering, Hassan (2022-2026), CGPA 9.2/10"
+
+  links:
+    portfolio: "https://ganavidgowda.vercel.app"
+    github: "https://github.com/GanaviDGowda"
+    linkedin: "https://linkedin.com/in/ganavi-d-gowda-b78b87267"
